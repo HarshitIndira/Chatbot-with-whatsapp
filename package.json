@@ -1,0 +1,19 @@
+{
+  "name": "indira-trade-chatbot",
+  "version": "1.0.0",
+  "description": "\"Indira Trade Chatbot integrated with whatsapp using picky assist API\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "train": "node train.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "node-nlp": "^4.27.0",
+    "nodemon": "^3.1.0"
+  }
+}
